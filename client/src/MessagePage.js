@@ -53,7 +53,7 @@ function App() {
   useEffect(() => {
 
     // POST request using fetch inside useEffect React hook
-    const apiKey = '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'; 
+    const apiKey = ''; 
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
